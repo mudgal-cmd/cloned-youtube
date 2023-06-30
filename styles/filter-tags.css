@@ -1,0 +1,33 @@
+.filter-tags-row{
+  display: flex;
+  justify-content: space-between;
+}
+.filter-tags-container{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.filter-tag{
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.20s;
+}
+.primary-filter-tag{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.filter-tag:hover{
+  background-color: rgba(0, 0, 0, 0.094);
+}

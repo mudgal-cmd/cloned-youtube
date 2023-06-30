@@ -24,7 +24,7 @@
   flex: 1;
   margin-left: 70px;
   margin-right: 35px;
-  max-width: 500px;
+  max-width: 640px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -48,6 +48,9 @@
   border-color: rgb(201, 199, 199);
   margin-left: -1px;
   position: relative;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+
 }
 
 /* Styling the tooltip */
@@ -113,10 +116,11 @@
   border-style: solid;
   border-color: rgb(192, 192, 192);
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  /* border-radius: 25px; */
   width: 0;
   outline: none;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 .search-bar:active{
   border-color: blue;
