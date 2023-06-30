@@ -1,6 +1,12 @@
 /* Contains the styles specific to the videos */
 .thumbnail{
   width: 100%;
+  border-radius: 10px;
+  transition: border-radius 0.20s;
+}
+
+.thumbnail:hover{
+  border-radius: 0;
 }
 
 .video-title{
